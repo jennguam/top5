@@ -88,17 +88,20 @@ body {
 }
 .column {
     width: 400px;
-    float: left;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
+    display:inline-block;
+
 }
 .portlet {
     margin: 0 1em 1em 0;
     padding: 0.3em;
 }
 .portlet-header {
-    padding: 0.2em 0.3em;
+    padding: 0.3em 0.5em 0.3em;
     margin-bottom: 0.5em;
     position: relative;
+    background-color: #676464;
+    color: white;
 }
 .portlet-toggle {
     position: absolute;
@@ -115,8 +118,11 @@ body {
     height: 50px;
 }
 #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
-#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1em; height: 18px; width: 150%;}
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; width: 150%;}
 #sortable li span { position: absolute; margin-left: -1.3em; }
+.ui-icon {
+    margin-right: .5em;
+}
 /* ==============
     MOBILE: Menu
    ============== */
